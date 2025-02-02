@@ -1,5 +1,5 @@
 import express from "express";
-import { client } from "@repo/db/client";
+import { client } from "../../../packages/db/src/index.ts";
 
 const app = express();
 app.use(express.json());
